@@ -105,46 +105,7 @@ Link to data feed: [USGS Data Feed](https://earthquake.usgs.gov/earthquakes/feed
   - Confidence threshold adjustments
   - Incremental learning capabilities
 
-### 3. Training Pipeline
-
-#### 3.a. Baseline Training
-- Data Processing:
-  - Global and regional data separation
-  - Feature dimensionality reduction
-  - Sequence creation for transformers
-  - Risk label generation for classifier
-
-- Model Training:
-  - Parallel training of all three models
-  - Loss function: MSE for transformers, Cross-entropy for classifier
-  - Optimizer: Adam
-  - Validation-based checkpoint saving
-
-- Evaluation:
-  - Prediction accuracy metrics
-  - Risk classification metrics
-  - Regional performance comparison
-  - Visualization generation
-
-#### 3.b. Continuous Monitoring
-- Data Collection:
-  - Configurable update interval
-  - Real-time USGS data integration
-  - Regional data sorting
-
-- Prediction Generation:
-  - Global earthquake count predictions
-  - Regional count predictions
-  - Risk level classification
-  - Confidence interval calculations
-
-- Model Optimization:
-  - Performance evaluation
-  - Incremental model updates
-  - Automated checkpoint management
-  - Regional model fine-tuning
-
-### 4. Performance Metrics
+### 3. Performance Metrics
 - Count Prediction:
   - Mean Absolute Error (MAE)
   - Root Mean Squared Error (RMSE)
@@ -157,11 +118,11 @@ Link to data feed: [USGS Data Feed](https://earthquake.usgs.gov/earthquakes/feed
   - Confusion Matrix
   - ROC-AUC Score
 
-- Visualization:
-  - Global vs regional performance
-  - Risk distribution analysis
-  - Temporal trend analysis
-  - Regional comparison plots
+## Results 
+- To be added by Lynn
+
+## Dashboard Demo
+- To be added by Lynn
 
 ## Authors
 - Stephen Moore
