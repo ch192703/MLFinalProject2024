@@ -70,7 +70,7 @@ Link to data feed: [USGS Data Feed](https://earthquake.usgs.gov/earthquakes/feed
 
 ### 2. Model Architecture
 
-#### A. Global Transformer
+#### 2.a. Global Transformer
 - Purpose: Global earthquake count prediction
 - Components:
   - Input projection layer
@@ -84,7 +84,7 @@ Link to data feed: [USGS Data Feed](https://earthquake.usgs.gov/earthquakes/feed
   - Number of Layers: 2
   - Attention Heads: 4
 
-#### B. Regional Transformer
+#### 2.b. Regional Transformer
 - Purpose: Region-specific count predictions
 - Architecture: Similar to global transformer
 - Key Difference: Separate model instances for each region
@@ -93,7 +93,7 @@ Link to data feed: [USGS Data Feed](https://earthquake.usgs.gov/earthquakes/feed
   - Local pattern recognition
   - Regional confidence intervals
 
-#### C. Risk Classification Model
+#### 2.c. Risk Classification Model
 - Type: Multi-Layer Perceptron (MLP)
 - Purpose: Earthquake risk level classification
 - Architecture:
@@ -107,7 +107,7 @@ Link to data feed: [USGS Data Feed](https://earthquake.usgs.gov/earthquakes/feed
 
 ### 3. Training Pipeline
 
-#### A. Baseline Training
+#### 3.a. Baseline Training
 - Data Processing:
   - Global and regional data separation
   - Feature dimensionality reduction
@@ -126,7 +126,7 @@ Link to data feed: [USGS Data Feed](https://earthquake.usgs.gov/earthquakes/feed
   - Regional performance comparison
   - Visualization generation
 
-#### B. Continuous Monitoring
+#### 3.b. Continuous Monitoring
 - Data Collection:
   - Configurable update interval
   - Real-time USGS data integration
