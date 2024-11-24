@@ -1,6 +1,6 @@
 # Earthquake Prediction Tool Documentation
 
-![Pipeline Architecture](assets/pipeline_diagram.png)
+![Dashboard Preview](map.jpg)
 
 ## Overview
 The Earthquake Prediction Pipeline is a comprehensive system that automates the collection, processing, and analysis of USGS earthquake data using three distinct models to predict and classify seismic activity:
