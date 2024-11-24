@@ -1,5 +1,7 @@
 # Earthquake Prediction Tool Documentation
 
+![Pipeline Architecture](assets/pipeline_diagram.png)
+
 ## Overview
 The Earthquake Prediction Pipeline is a comprehensive system that automates the collection, processing, and analysis of USGS earthquake data using three distinct models to predict and classify seismic activity:
 
@@ -9,7 +11,7 @@ The Earthquake Prediction Pipeline is a comprehensive system that automates the 
 
 3. **Risk Level Classification Model**: A Multi-Layer Perceptron (MLP) classifier that categorizes earthquake events into risk levels (Low, Medium, High) based on magnitude, depth, and significance features.
 
-Link to data feed: [Link Text](https://earthquake.usgs.gov/earthquakes/feed/)
+Link to data feed: [USGS Data Feed](https://earthquake.usgs.gov/earthquakes/feed/)
 
 ## System Requirements
 
@@ -22,9 +24,41 @@ Link to data feed: [Link Text](https://earthquake.usgs.gov/earthquakes/feed/)
 - scikit-learn - Risk classification and evaluation metrics
 - scipy - Statistical computations
 
+## Resources
+- [USGS Earthquake API Documentation](https://earthquake.usgs.gov/fdsnws/event/1/)
+- [PyTorch Documentation](https://pytorch.org/docs/stable/index.html)
+- [Scikit-learn Documentation](https://scikit-learn.org/stable/)
+
 ## Directory Structure
 
-Copy
+```
+/earthquake_data/
+├── global/                 # Global prediction pipeline
+│   ├── data/              # Raw daily earthquake data
+│   │   └── YYYY-MM/       # Organized by year-month
+│   ├── models/            # Saved model checkpoints
+│   ├── predictions/       # Daily prediction outputs
+│   ├── plots/             # Performance visualizations
+│   └── evaluations/       # Evaluation metrics
+│
+└── regional/              # Regional prediction pipeline
+├── data/              # Regional data directories
+│   ├── pacific_northwest/
+│   ├── california/
+│   ├── alaska/
+│   ├── hawaii/
+│   └── central_us/
+├── models/            # Regional model checkpoints
+│   ├── pacific_northwest/
+│   ├── california/
+│   ├── alaska/
+│   ├── hawaii/
+│   └── central_us/
+├── predictions/       # Regional predictions
+├── plots/             # Regional visualizations
+└── evaluations/       # Regional metrics
+```
+
 ## Core Components
 
 ### 1. Data Collection and Processing
