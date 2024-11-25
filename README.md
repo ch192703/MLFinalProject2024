@@ -13,6 +13,8 @@ The Earthquake Prediction Pipeline is a comprehensive system that automates the 
 
 Link to data feed: [USGS Data Feed](https://earthquake.usgs.gov/earthquakes/feed/)
 
+Link to presentation: [UCF - IDS 6938: Project Presentation](https://youtu.be/2gBzZeNs8as)
+
 ## System Requirements
 
 ### Python 3.x Required Libraries:
