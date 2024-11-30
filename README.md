@@ -13,7 +13,7 @@ The Earthquake Prediction Pipeline is a comprehensive system that automates the 
 
 Link to data feed: [USGS Data Feed](https://earthquake.usgs.gov/earthquakes/feed/)
 
-Link to presentation: [UCF - IDS 6938: Project Presentation](https://youtu.be/zfNhVhEp6Kg)
+Link to presentation: [UCF - IDS 6938: Project Presentation](https://youtu.be/Czvyl98B_V8)
 
 ## System Requirements
 
@@ -25,6 +25,8 @@ Link to presentation: [UCF - IDS 6938: Project Presentation](https://youtu.be/zf
 - matplotlib/seaborn - Visualization
 - scikit-learn - Risk classification and evaluation metrics
 - scipy - Statistical computations
+
+### Ensure to run with GPU (Parallel Processing)
 
 ## Resources
 - [USGS Earthquake API Documentation](https://earthquake.usgs.gov/fdsnws/event/1/)
@@ -125,22 +127,22 @@ Null Hypothesis: No difference between regional and global prediction errors
 Alternate Hypothesis: Regional model has lower prediction errors than global model
   
 - Pacific Northwest Region
-  - ![image](https://github.com/user-attachments/assets/64928f55-79bb-4eda-95de-e5da8031b09e)
+ ![image](https://github.com/user-attachments/assets/64928f55-79bb-4eda-95de-e5da8031b09e)
     - Mean Error (Regional): 1.5 +/- 0.40
     - Mean Error (Global): 11.20 +/- 7.52
     - No statistically significant difference between models (p = 0.0577)
 - California Region
-  - ![image](https://github.com/user-attachments/assets/111975ac-64ed-4d9a-9210-4b165b64f648)
+ ![image](https://github.com/user-attachments/assets/111975ac-64ed-4d9a-9210-4b165b64f648)
     - Mean Error (Regional): 0.91 +/- 1.09
     - Mean Error (Global): 9.22 +/- 6.10
     - Statistically significant improvement with regional model (p = 0.0001)   
 - Alaska Region
-  - ![image](https://github.com/user-attachments/assets/36354915-6774-419d-9478-223fb2c764a5)
+ ![image](https://github.com/user-attachments/assets/36354915-6774-419d-9478-223fb2c764a5)
     - Mean Error (Regional): 3.55 +/- 2.48
     - Mean Error (Global): 8.22 +/- 5.86
     - Statistically significant improvement with regional model (p = 0.0011) 
 - Hawaii Region
-  - ![image](https://github.com/user-attachments/assets/c01b1607-92e9-4d50-a330-fed47eaf4078)
+ ![image](https://github.com/user-attachments/assets/c01b1607-92e9-4d50-a330-fed47eaf4078)
     - Mean Error (Regional): 1.45 +/- 0.50
     - Mean Error (Global): 9.50 +/- 6.38
     - Statistically significant improvement with regional model (p = 0.0053)
