@@ -157,7 +157,7 @@ Conclusions
 
 
 ## Dashboard Demo
-- To be added by Lynn
+![Dashboard Demo](Dashboard_Demo.gif)
 
 ## Authors
 - Stephen Moore
