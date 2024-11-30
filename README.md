@@ -117,10 +117,8 @@ Link to presentation: [UCF - IDS 6938: Project Presentation](https://youtu.be/Cz
   - Confidence interval coverage
 
 - Risk Classification:
-  - Accuracy, Precision, Recall
-  - F1 Score
+  - Accuracy, Precision, Recall, F1 Score
   - Confusion Matrix
-  - ROC-AUC Score
 
 ### 4. Hypothesis Testing Results
 Null Hypothesis: No difference between regional and global prediction errors
