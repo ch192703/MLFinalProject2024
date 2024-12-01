@@ -28,6 +28,14 @@ Link to presentation: [UCF - IDS 6938: Project Presentation](https://youtu.be/Cz
 
 ### Ensure to run with GPU (Parallel Processing)
 
+### **Usage Examples**
+##### **Initialize Pipeline**
+pipeline = EarthquakePipeline(drive_path='/path/to/base/directory')
+##### **Run Baseline Training**
+pipeline.run_baseline_training(days_to_process=31)
+##### **Start Continuous Monitoring**
+pipeline.run_continuous_monitoring(update_interval=3600)  # 1 hour interval
+
 ## Resources
 - [USGS Earthquake API Documentation](https://earthquake.usgs.gov/fdsnws/event/1/)
 - [PyTorch Documentation](https://pytorch.org/docs/stable/index.html)
