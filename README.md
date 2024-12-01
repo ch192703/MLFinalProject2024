@@ -25,6 +25,7 @@ Link to presentation: [UCF - IDS 6938: Project Presentation](https://youtu.be/Cz
 - matplotlib/seaborn - Visualization
 - scikit-learn - Risk classification and evaluation metrics
 - scipy - Statistical computations
+- dash - Dashboard visualization
 
 ### Ensure to run with GPU (Parallel Processing)
 
