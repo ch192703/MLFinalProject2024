@@ -27,7 +27,8 @@ Link to presentation: [UCF - IDS 6938: Project Presentation](https://youtu.be/Cz
 - scipy - Statistical computations
 - dash - Dashboard visualization
 
-### Ensure to run with GPU (Parallel Processing)
+### Ensure to run with GPU (Parallel Processing):
+To run the model, all code blocks must be executed one after the other.
 
 ### **Usage Examples**
 ##### **Initialize Pipeline**
